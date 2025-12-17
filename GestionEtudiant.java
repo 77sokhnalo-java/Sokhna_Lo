@@ -23,18 +23,31 @@ public class GestionEtudiant {
             choix = sc.nextInt();
 
             switch (choix) {
-                case 1 -> ajouterEtudiant();
-                case 2 -> trierParAge();
-                case 3 -> afficherAges();
-                case 4 -> supprimerMoyenAge();
-                case 5 -> afficherNotes();
-                case 0 -> System.out.println("Fin du programme.");
+                case 1:
+					ajouterEtudiant();
+					break;
+                case 2:
+					trierParAge();
+					break;
+                case 3:
+					afficherAges();
+					break;
+                case 4:
+					supprimerMoyenAge();
+					break;
+                case 5:
+					afficherNotes();
+					break;
+                case 0:
+					System.out.println("Fin du programme.");
+					break;
                 default -> System.out.println("Choix invalide !");
             }
         } while (choix != 0);
     }
 
 }
+
 
 
 
