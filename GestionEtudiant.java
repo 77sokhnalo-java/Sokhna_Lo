@@ -11,7 +11,7 @@ public class GestionEtudiant {
 		int choix;
 		
         do {
-            System.out.println("\n===== MENU =====");
+            System.out.println("\n MENU");
             System.out.println("1. Ajouter un étudiant");
             System.out.println("2. Trier par âge croissant");
             System.out.println("3. Afficher les 5 plus âgés et les 5 moyens âgés");
@@ -35,5 +35,6 @@ public class GestionEtudiant {
     }
 
 }
+
 
 
